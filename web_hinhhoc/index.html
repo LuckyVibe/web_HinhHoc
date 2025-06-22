@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Diện Tích và Chu Vi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/Logo (1).png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1>Tính Diện Tích và Chu Vi Các Hình</h1>
+
+        <div class="shape-selector">
+            <label for="shape">Chọn hình cần tính:</label>
+            <select id="shape">
+                <option value="">-- Chọn hình --</option>
+                <option value="rectangle">Hình Chữ Nhật</option>
+                <option value="square">Hình Vuông</option>
+                <option value="circle">Hình Tròn</option>
+                <option value="trapezoid">Hình Thang</option>
+            </select>
+        </div>
+
+        <div id="shape-details" class="shape-details initial">
+            <div id="shape-image-container" class="shape-image-container">
+                </div>
+            
+            <div id="shape-info"></div>
+        </div>
+
+        <div id="result" class="result">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
